@@ -1,0 +1,8 @@
+{
+  "name": "codelight/acf-field-cl-simple-wysiwyg",
+  "keywords": ["wordpress", "plugin"],
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "v1.0.7"
+  }
+}
