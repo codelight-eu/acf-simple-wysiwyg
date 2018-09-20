@@ -1,8 +1,6 @@
 {
-  "name": "codelight/acf-field-cl-simple-wysiwyg",
-  "keywords": ["wordpress", "plugin"],
+  "name": "codelight-eu/acf-simple-wysiwyg",
   "type": "wordpress-plugin",
-  "require": {
-    "composer/installers": "v1.0.7"
-  }
+  "description": "WordPress plugin which creates a new ACF Wysiwyg field type with very limited controls.",
+  "homepage": "https://codelight.eu"
 }
