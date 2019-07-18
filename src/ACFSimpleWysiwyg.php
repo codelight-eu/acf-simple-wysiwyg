@@ -39,6 +39,7 @@ class ACFSimpleWysiwyg extends \acf_field
         // wp-includes/default-filters.php
         add_filter('acf_the_content_simple', 'capital_P_dangit', 11);
         add_filter('acf_the_content_simple', 'wptexturize');
+        add_filter('acf_the_content_simple', 'wpautop');
         add_filter('acf_the_content_simple', 'convert_smilies', 20);
 
         // Removed in 4.4
