@@ -51,8 +51,8 @@ class ACFSimpleWysiwyg extends \acf_field
         if (function_exists('wp_filter_content_tags')) {
             add_filter('acf_the_content_simple', 'wp_filter_content_tags');
         // Added in 4.4
-        } elseif (function_exists('wp_make_content_images_responsive')) {
-            add_filter('acf_the_content_simple', 'wp_make_content_images_responsive');
+        } elseif (function_exists('wp_filter_content_tags')) {
+            add_filter('acf_the_content_simple', 'wp_filter_content_tags');
         }
 
         add_filter('acf_the_content_simple', 'do_shortcode', 11);
